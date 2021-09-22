@@ -8,5 +8,4 @@ public class Greeting {
         System.out.println(idea + " But I am a newbie. " + year + " г.");
 
     }
-
 }
