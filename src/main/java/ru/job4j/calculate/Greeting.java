@@ -3,9 +3,12 @@ package ru.job4j.calculate;
 public class Greeting {
 
     public static void main(String[] args) {
-        String idea = "I like Java!";
         int year = 2021;
-        System.out.println(idea + " But I am a newbie. " + year + " г.");
+        String idea = "I like Java!";
+        System.out.println(idea);
+        idea += " But I am a newbie. ";
+        idea += year;
+        System.out.println(idea);
 
     }
 }
