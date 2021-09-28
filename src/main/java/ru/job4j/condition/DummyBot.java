@@ -18,4 +18,8 @@ public class DummyBot {
         rsl = DummyBot.answer("Пока.");
         System.out.println(rsl);
     }
+
 }
+
+
+
