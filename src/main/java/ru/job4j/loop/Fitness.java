@@ -7,7 +7,7 @@ public class Fitness {
         while (ivan < nik) {
            nik = nik / 2;
            ivan = ivan / 3;
-           return  (nik - ivan) / 3;
+           return nik - ivan;
         }
         return month;
     }
