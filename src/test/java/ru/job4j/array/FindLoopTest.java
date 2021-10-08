@@ -26,18 +26,10 @@ public class FindLoopTest {
     @Test
     public void whenArrayHas1Then4() {
         int[] data = {5, 4, 3, 2, 1, 0};
-        int el = 1;
+        int el = 10;
         int result = FindLoop.indexOf(data, el);
-        int expected = 4;
+        int expected = -1;
         Assert.assertEquals(expected, result);
     }
 
-    @Test
-    public void whenArrayHas1Then0Expected3() {
-        int[] data = {5, 4, 3, 2, 1, 0};
-        int el = 5;
-        int result = FindLoop.indexOf(data, el);
-        int expected = 3;
-        Assert.assertNotEquals(expected, result);
-    }
 }
