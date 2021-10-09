@@ -72,6 +72,5 @@ public class FindLoopTest {
         int result = FindLoop.indexOf(data, el, start, finish);
         int expected = -1;
         Assert.assertEquals(expected, result);
-
     }
 }
