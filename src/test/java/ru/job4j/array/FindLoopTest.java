@@ -67,8 +67,8 @@ public class FindLoopTest {
     public void whenNotFind2() {
         int[] data = new int[]{3, 4, 5, 15, 7, 8, 10, 1};
         int el = 15;
-        int start = 1;
-        int finish = 3;
+        int start = 4;
+        int finish = 7;
         int result = FindLoop.indexOf(data, el, start, finish);
         int expected = -1;
         Assert.assertEquals(expected, result);
