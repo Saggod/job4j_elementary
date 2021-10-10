@@ -1,6 +1,6 @@
 package ru.job4j.array;
 
-import junit.framework.Assert;
+import org.junit.Assert;
 import org.junit.Test;
 
 public class MatrixCheckTest {
@@ -28,4 +28,5 @@ public class MatrixCheckTest {
         boolean result = MatrixCheck.monoVertical(input, column);
         Assert.assertTrue(result);
     }
+
 }
