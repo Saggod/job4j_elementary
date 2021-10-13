@@ -1,7 +1,6 @@
 package ru.job4j.condition;
 
 public class StringEq {
-
     public static void main(String[] args) {
         String first = new String("one");
         String one = new String("one");
@@ -11,5 +10,4 @@ public class StringEq {
             System.out.println("first does not equal one");
         }
     }
-
 }

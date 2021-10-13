@@ -1,12 +1,10 @@
 package ru.job4j.condition;
 
 public class DivideBySix {
-
     public static String checkNumber(int number) {
         String rsl;
         int divTwo = number % 2;
         int divThree = number % 3;
-
         if (divTwo == 0) {
             if (divThree == 0) {
                 rsl = "Исходное число делится на 6.";
